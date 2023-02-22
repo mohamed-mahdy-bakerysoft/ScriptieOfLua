@@ -1,5 +1,5 @@
 local Frame = vgui.Create( "DFrame" )
-Frame:SetPos( 10, 10 ) 
+Frame:SetPos( 15, 15 ) 
 Frame:SetSize( 300, 300 ) 
 Frame:SetTitle( "Hello Lua!" ) 
 Frame:SetVisible( true ) 
