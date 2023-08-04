@@ -6,6 +6,6 @@ local button = script.Parent
 button.MouseButton1Click:Connect(function() -- Click
 	wait()
 	camera.CameraType = Enum.CameraType.Custom
-	camera.CFrame = camera.CFrame
+	camera.CFrame = camerapart.CFrame
 	button:Destroy()
 end)
