@@ -1,8 +1,7 @@
 local button = script.Parent
 
-button.Touched:Connect(function()
-	local brick = script.Parent.Parent.Part
-	if brick then
+button.Touched:Connect(function(hit)
+	if hit == workspace.Part2 then
 		print("Pressed!")
 	end
 end)
