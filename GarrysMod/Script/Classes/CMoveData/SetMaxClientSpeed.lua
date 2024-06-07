@@ -1,3 +1,3 @@
-hook.Add("SetupMove","MySpeed", function(ply, mv)
-    mv:SetMaxClientSpeed(100)
+hook.Add("SetupMove","MySpeed", function(ply, move)
+    move:SetMaxClientSpeed(100)
 end)
