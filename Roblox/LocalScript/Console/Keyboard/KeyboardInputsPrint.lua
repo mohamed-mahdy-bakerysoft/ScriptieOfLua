@@ -1,8 +1,7 @@
 -- Locals
-
 local userinput = game:GetService("UserInputService")
-local players = game.Players.LocalPlayer
 
+-- Inputs
 userinput.InputBegan:Connect(function(input)
 	if input.KeyCode == Enum.KeyCode.W then
 		print("W key is pressed!")
