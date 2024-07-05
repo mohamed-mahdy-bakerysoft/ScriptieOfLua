@@ -1,3 +1,3 @@
 for _, ply in pairs(player.GetAll()) do
-    ply:SetWalkSpeed(1000)
+    ply:SetWalkSpeed(1000) -- walkSpeed
 end
