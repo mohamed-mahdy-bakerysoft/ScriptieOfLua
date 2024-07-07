@@ -4,7 +4,7 @@ local hide = {
 	["CHudBattery"] = true
 }
 
--- Add hook for HUD function
+-- Add hook for HUDShouldDraw function
 hook.Add("HUDShouldDraw", "HideHUD", function(name)
 	if (hide[name]) then
 		return false
