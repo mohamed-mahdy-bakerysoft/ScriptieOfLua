@@ -1,1 +1,1 @@
-print(os.clock())
+print(os.date())
