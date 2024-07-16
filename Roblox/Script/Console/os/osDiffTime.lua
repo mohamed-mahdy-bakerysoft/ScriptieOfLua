@@ -1,0 +1,1 @@
+print(os.difftime(1, 2))
