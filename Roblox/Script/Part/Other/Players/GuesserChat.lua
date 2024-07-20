@@ -5,8 +5,7 @@ local players = game.Players
 local key = brick.Key
 
 -- Chatted Function
-function Chatted(message, recipient, speaker)
-	local text = string.lower(speaker.Name)
+function Chatted(message)
 	message = string.lower(message)
 	if (message == string.lower(key.Value)) then
 		brick.CanCollide = false
@@ -14,12 +13,12 @@ function Chatted(message, recipient, speaker)
 		wait(5) -- Delay closing
 		brick.CanCollide = true
 		brick.Transparency = 0
-	end 
-end 
+	end
+end
 
 -- Connect Function
 players.ChildAdded:Connect(function(plr)
 	plr.Chatted:Connect(function(message, recipient)
-		Chatted(message, recipient, plr) 
-	end) 
+		Chatted(message, recipient, plr)
+	end)
 end)
