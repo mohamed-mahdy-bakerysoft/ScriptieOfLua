@@ -1,4 +1,4 @@
--- Get service
+-- GetService local
 local teams = game:GetService("Teams")
 
 --- Teams
