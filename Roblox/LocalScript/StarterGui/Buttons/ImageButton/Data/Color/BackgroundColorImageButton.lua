@@ -1,5 +1,5 @@
-local textbutton = script.Parent.TextButton
+local imagebutton = script.Parent.ImageButton
 
-textbutton.MouseButton1Click:Connect(function()
-	textbutton.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+imagebutton.MouseButton1Click:Connect(function()
+	imagebutton.BackgroundColor3 = Color3.new(1, 0.666667, 0)
 end)
