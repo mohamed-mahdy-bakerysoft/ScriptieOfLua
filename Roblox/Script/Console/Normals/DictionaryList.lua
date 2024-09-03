@@ -1,3 +1,4 @@
+-- Dictionary local
 local dict = {
 	["Moon"] = "🌕",
 	["Sun"] = "☀️",
