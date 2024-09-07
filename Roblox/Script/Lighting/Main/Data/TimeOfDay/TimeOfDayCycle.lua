@@ -6,7 +6,7 @@ local sec = 0
 while wait(0.1) do
 	lighting.TimeOfDay = ((hr)..":"..(min)..":"..(sec))
 	sec = sec + 30
-	
+
 	if sec >= 60 then
 		min = min + 1
 		sec = 0

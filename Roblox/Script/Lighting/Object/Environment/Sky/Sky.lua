@@ -1,7 +1,8 @@
+-- Locals
 local lighting = game.Lighting
 local sky = Instance.new("Sky")
 
-sky.Parent = lighting
+sky.Parent = lighting -- Parent the sky to the lighting
 
 sky.MoonTextureId = "rbxasset://sky/moon.jpg" -- Moon Texture
 sky.SkyboxBk = "rbxassetid://591058823" -- Back Surface
