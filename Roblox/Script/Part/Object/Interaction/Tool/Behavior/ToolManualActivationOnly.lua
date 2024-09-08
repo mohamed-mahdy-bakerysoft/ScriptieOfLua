@@ -1,0 +1,1 @@
+tool.ManualActivationOnly = false -- The ManualActivationOnly property controls whether the Tool can be activated without executing Tool:Activate()
