@@ -1,1 +1,1 @@
-print(os.difftime(1, 2))
+print(os.difftime(1, 2)) -- Returns the number of seconds from one time to another

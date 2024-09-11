@@ -1,1 +1,1 @@
-print(os.clock())
+print(os.clock()) -- Returns elapsed time in seconds since an arbitrary baseline with sub-microsecond precision.

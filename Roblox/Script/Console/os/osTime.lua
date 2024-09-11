@@ -1,1 +1,1 @@
-print(os.time())
+print(os.time()) -- Returns how many seconds have passed since the Unix epoch (1 January 1970, 00:00:00) under current UTC time
