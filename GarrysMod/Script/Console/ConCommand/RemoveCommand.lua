@@ -1,0 +1,1 @@
+concommand.Remove("gmod_camera") -- Removes the built-in concommand gmod_camera which would normally quickly select the camera swep
