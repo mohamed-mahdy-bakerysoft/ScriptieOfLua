@@ -1,4 +1,4 @@
--- First we create a container, in this case it is a full-screen Derma Frame window
+-- First we create a vgui container, in this case it is a full-screen Derma Frame (DFrame) window
 local dframe = vgui.Create('DFrame')
 dframe:SetSize(ScrW(), ScrH())
 dframe:SetTitle("Garry's Mod Wiki")
