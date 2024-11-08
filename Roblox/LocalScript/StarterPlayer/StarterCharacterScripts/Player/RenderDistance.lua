@@ -5,7 +5,7 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidrootpart = character:WaitForChild("HumanoidRootPart")
 
--- Function
+-- Function Render
 function Render()
 	local workspace = game.Workspace:GetChildren()
 	
@@ -18,12 +18,13 @@ function Render()
 
             -- Check distance
 			if dist >= 100 then
-				workspace[i].Transparency = 1
+				workspace[i].Transparency = 1 -- Hide
 			else
-				workspace[i].Transparency = 0
+				workspace[i].Transparency = 0 -- Visible
 			end
 		end
 	end
 end
 
+-- RunService
 runservice.RenderStepped:Connect(Render)

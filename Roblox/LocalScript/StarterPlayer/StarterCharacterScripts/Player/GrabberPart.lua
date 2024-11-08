@@ -1,11 +1,13 @@
 -- Locals
 local cas = game:GetService("ContextActionService")
 
+-- Player
 local player = game.Players.LocalPlayer
 local character = player.Character
 local mouse = player:GetMouse()
 local camera = game.Workspace.CurrentCamera
 
+-- Grab and Drag
 local grabobject = nil
 local grabstart = false
 local drag = nil

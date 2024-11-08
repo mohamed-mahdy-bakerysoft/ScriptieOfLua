@@ -13,7 +13,8 @@ function Jump()
 	if not char or not humanoid or not char:IsDescendantOf(workspace) or humanoid:GetState() == Enum.HumanoidStateType.Dead then
 		return
 	end
-	
+
+	-- Check
 	if candoublejump == true and hasdoublejump == false then
 		hasdoublejump = true
 		humanoid.JumpPower = 50
@@ -25,13 +26,13 @@ end
 local function charadded(newchar)
 	candoublejump = false
 	hasdoublejump = false
-	
+
 	humanoid.StateChanged:connect(function(state)
 		if state == Enum.HumanoidStateType.Landed then
 			candoublejump = false
 			hasdoublejump = false
 			humanoid.JumpPower = 50
-			
+
 		elseif state == Enum.HumanoidStateType.Freefall then
 			wait(timing)
 			candoublejump = true

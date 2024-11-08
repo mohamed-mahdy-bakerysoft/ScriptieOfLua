@@ -4,12 +4,13 @@ local players = game.Players.LocalPlayer
 local camera = workspace.CurrentCamera
 local start = camera.CFrame.Position
 
-local range = 10
+local range = 10 -- Range of the looking
 
-while wait(1) do 
+-- Detection wait
+while wait(1) do
 	-- Direction
 	local direction = camera.CFrame.LookVector * range
-	
+
 	-- Fitler Raycast
 	local params = RaycastParams.new()
 	params.FilterType = Enum.RaycastFilterType.Exclude
@@ -18,7 +19,7 @@ while wait(1) do
 	else
 		params.FilterDescendantsInstances = {nil}
 	end
-	
+
 	-- Get result
 	local result = workspace:Raycast(start, direction, params)
 	if result and result.Instance:IsA("Part") then
