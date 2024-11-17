@@ -2,7 +2,7 @@
 local brick = script.Parent
 local players = game.Players
 
-local key = brick.Key
+local key = brick.Key -- Key string
 
 -- Chatted Function
 function Chatted(message)

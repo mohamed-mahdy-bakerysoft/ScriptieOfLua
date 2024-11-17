@@ -1,3 +1,4 @@
+-- Locals
 local tweenservice = game:GetService("TweenService") -- Get service
 local part = script.Parent
 
@@ -10,6 +11,7 @@ local info = TweenInfo.new(
 	true -- Reversing
 )
 
+-- Secondary locals
 local newpos = part.Position + Vector3.new(0, 5, 0) -- New position
 local tween = tweenservice:Create(part, info, {Position = newpos}) -- Tween
 
