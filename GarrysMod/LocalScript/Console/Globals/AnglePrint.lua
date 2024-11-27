@@ -1,3 +1,4 @@
+-- Angle
 print(Angle(1, 2, 3)) -- Interger
 print(Angle("4 5 6")) -- Strings
 
