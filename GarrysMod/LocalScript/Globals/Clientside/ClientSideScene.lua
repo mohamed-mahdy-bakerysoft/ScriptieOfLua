@@ -1,0 +1,1 @@
+ClientsideScene("scenes/eli_lab/mo_gowithalyx01.vcd", LocalPlayer())
