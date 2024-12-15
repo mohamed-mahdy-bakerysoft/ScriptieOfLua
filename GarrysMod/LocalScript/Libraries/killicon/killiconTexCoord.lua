@@ -1,0 +1,1 @@
+killicon.AddTexCoord("heavy_punch", "hud/dneg_images", color_white, 193, 449, 60, 30) -- Creates a killicon using the TF2 killicons image

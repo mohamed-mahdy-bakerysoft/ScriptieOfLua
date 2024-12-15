@@ -1,0 +1,1 @@
+killicon.Add("default", "HUD/killicons/default", Color(255, 80, 0, 255)) -- Creates default killicon

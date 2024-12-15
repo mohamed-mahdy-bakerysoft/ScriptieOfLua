@@ -1,0 +1,1 @@
+killicon.AddFont("weapon_pistol", "HL2MPTypeDeath", "-", Color(255, 80, 0, 255)) -- Adds pistol killicon

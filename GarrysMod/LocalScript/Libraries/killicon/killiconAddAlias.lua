@@ -1,0 +1,1 @@
+killicon.AddAlias("prop_ragdoll", "prop_physics") -- Copies the prop_physics killicon to prop_ragdoll
