@@ -1,0 +1,3 @@
+Add_NPC_Class("CLASS_TESTER")
+
+print(CLASS_TESTER)
